@@ -8,3 +8,8 @@ project "Editor"
     language "C++"
     
     files { "source/**.h", "source/**.cpp" }
+
+    includedirs
+    {
+        "source"
+    }

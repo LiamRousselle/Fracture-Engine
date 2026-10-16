@@ -4,6 +4,7 @@
 **.slnx
 **.vcxproj
 **.filters
+**.user
 
 # Generate Files
 **.exe

@@ -35,6 +35,8 @@ namespace FR
 			return ptr;
 		}
 
+		void RunModules();
+
 	private:
 		FrModuleHandle() = default;
 		~FrModuleHandle() = default;
