@@ -10,6 +10,7 @@
 workspace "Fracture-Game-Engine"
     configurations { "Debug", "Release" }
     architecture "x64"
+    cppdialect "C++20"
 
     targetdir "build/%{cfg.buildcfg}/bin"
     objdir "build/%{cfg.buildcfg}/obj"
